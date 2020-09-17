@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/louhongfei123/core/log"
+	"github.com/louhongfei123/niko/log"
 	"net"
 	"sync"
 	"time"

@@ -1,9 +1,9 @@
 package gate
 
 import (
-	"github.com/louhongfei123/core/chanrpc"
-	"github.com/louhongfei123/core/log"
-	"github.com/louhongfei123/core/network"
+	"github.com/louhongfei123/niko/chanrpc"
+	"github.com/louhongfei123/niko/log"
+	"github.com/louhongfei123/niko/network"
 	"net"
 	"reflect"
 	"time"

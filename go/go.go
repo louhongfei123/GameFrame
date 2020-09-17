@@ -2,8 +2,8 @@ package g
 
 import (
 	"container/list"
-	"github.com/louhongfei123/core/conf"
-	"github.com/louhongfei123/core/log"
+	"github.com/louhongfei123/niko/conf"
+	"github.com/louhongfei123/niko/log"
 	"runtime"
 	"sync"
 )

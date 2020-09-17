@@ -2,7 +2,7 @@ package timer_test
 
 import (
 	"fmt"
-	"github.com/louhongfei123/core/timer"
+	"github.com/louhongfei123/niko/timer"
 	"time"
 )
 

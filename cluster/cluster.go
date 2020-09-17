@@ -1,8 +1,8 @@
 package cluster
 
 import (
-	"github.com/louhongfei123/core/conf"
-	"github.com/louhongfei123/core/network"
+	"github.com/louhongfei123/niko/conf"
+	"github.com/louhongfei123/niko/network"
 	"math"
 	"time"
 )

@@ -2,7 +2,7 @@ package g_test
 
 import (
 	"fmt"
-	"github.com/louhongfei123/GameFrame/go"
+	"github.com/louhongfei123/niko/go"
 	"time"
 )
 

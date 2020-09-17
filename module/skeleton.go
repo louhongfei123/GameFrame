@@ -1,10 +1,10 @@
 package module
 
 import (
-	"github.com/louhongfei123/core/chanrpc"
-	"github.com/louhongfei123/core/console"
-	"github.com/louhongfei123/core/go"
-	"github.com/louhongfei123/core/timer"
+	"github.com/louhongfei123/niko/chanrpc"
+	"github.com/louhongfei123/niko/console"
+	"github.com/louhongfei123/niko/go"
+	"github.com/louhongfei123/niko/timer"
 	"time"
 )
 

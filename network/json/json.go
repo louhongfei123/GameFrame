@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/louhongfei123/core/chanrpc"
-	"github.com/louhongfei123/core/log"
+	"github.com/louhongfei123/niko/chanrpc"
+	"github.com/louhongfei123/niko/log"
 	"reflect"
 )
 

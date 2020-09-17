@@ -1,11 +1,11 @@
-package core
+package niko
 
 import (
-	"github.com/louhongfei123/core/cluster"
-	"github.com/louhongfei123/core/conf"
-	"github.com/louhongfei123/core/console"
-	"github.com/louhongfei123/core/log"
-	"github.com/louhongfei123/core/module"
+	"github.com/louhongfei123/niko/cluster"
+	"github.com/louhongfei123/niko/conf"
+	"github.com/louhongfei123/niko/console"
+	"github.com/louhongfei123/niko/log"
+	"github.com/louhongfei123/niko/module"
 	"os"
 	"os/signal"
 )
@@ -21,7 +21,7 @@ func Run(mods ...module.Module) {
 		defer logger.Close()
 	}
 
-	log.Release("micro-game %v starting up", version)
+	log.Release("niko %v starting up", version)
 
 	// module
 	for i := 0; i < len(mods); i++ {
@@ -39,7 +39,7 @@ func Run(mods ...module.Module) {
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, os.Kill)
 	sig := <-c
-	log.Release("micro-game closing down (signal: %v)", sig)
+	log.Release("niko closing down (signal: %v)", sig)
 	console.Destroy()
 	cluster.Destroy()
 	module.Destroy()
