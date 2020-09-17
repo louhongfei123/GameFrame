@@ -1,3 +1,3 @@
-package core
+package niko
 
 const version = "1.0.0"
