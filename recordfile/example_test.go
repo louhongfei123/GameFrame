@@ -2,7 +2,7 @@ package recordfile_test
 
 import (
 	"fmt"
-	"github.com/louhongfei123/core/recordfile"
+	"github.com/louhongfei123/niko/recordfile"
 )
 
 func Example() {
